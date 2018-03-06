@@ -1,0 +1,18 @@
+.main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  .info {
+    width: 60%;
+    float: left;
+    background-color: #eeeeee;
+    height: 600px;
+    padding: 25px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    .name {
+      font-size: 24px;
+      font-weight: bolder;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.main {
+  width: 80%;
+  margin: 0 auto;
+  .title {
+    margin:25px 0;
+    border-bottom: 2px solid #1890FF;
+    >label {
+      padding: 8px 20px;
+      background: #1890FF;
+      color: #fff;
+      font-size: 18px;
+      font-family: 'YaYa';
+      font-weight: bolder;
+    }
+  }
+  .list {
+    width: 100%;
+    ul {
+      padding: 0px;
+      list-style: none;
+      overflow: hidden;
+      clear: both;
+      > li {
+        float: left;
+        width: 25%;
+        padding: 0 15px;
+        margin-bottom: 10px;
+        .ant-card-meta-title {
+          font-family: YaYa;
+          font-weight: bolder;
+        }
+        >a {
+          display: block;
+          position: relative;
+          overflow: hidden;
+        }
+        .tag {
+          position: absolute;
+          right: 12px;
+          bottom: 12px;
+          width: 60px;
+          height: 60px;
+          line-height: 60px;
+          background-color: #f5317f;
+          color: #fff;
+          transform:rotate(45deg);
+          text-align: center;
+          >label {
+            transform: rotate(-45deg);
+            display: block;
+            font-family: YaYa;
+            font-weight: bolder;
+            font-size: 16px;
+          }
+        }
+      }
+      li:nth-child(2n) .tag {
+        background-color: #00a854;
+      }
+      li:nth-child(3n) .tag {
+        background-color: #7265e6;
+      }
+    }
+  }
+}

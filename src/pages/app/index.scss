@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: rgba(255,255,255,0.5);
+  padding: 0 20px;
+  position: fixed;
+  z-index: 999;
+  .log {
+    color: #000;
+    font-family: 'YaYa';
+    font-size: 24px;
+    font-weight: bolder;
+  }
+}
+.banner {
+  width: 100%;
+  position: relative;
+  .ant-carousel .slick-slide {
+    text-align: center;
+    background: #333;
+    overflow: hidden;
+  }
+  .search-box {
+    position: absolute;
+    top: 30%;
+    width: 600px;
+    left: 50%;
+    margin-left: -200px;
+  }
+  img {
+    width: 100%;
+    height: 500px;
+  }
+}
+
